@@ -1,5 +1,9 @@
 @import 'reset';
 
+.layout {
+
+}
+
 .header {
   background-color: black;
   color: white;
@@ -10,9 +14,11 @@
 }
 
 .headerLinks {
-  background-color: red;
+  background-color: white;
   overflow: hidden;
   border-bottom: 1px solid black;
+  
+
 }
 
 // To allow text to fit in the headerlinks container, I did the following:
@@ -41,7 +47,10 @@
   text-align: center;
   border-right: 1px solid black;
   padding: 1em 0em 1em 0em;
-
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 900;
 }
 
 .headerLinks li.icons a {
@@ -55,11 +64,14 @@
   text-align: center;
   font-size: 2em;
   font-family: 'Lato', sans-serif;
+  padding: 5%;
+  border-bottom: solid black 3px
 
 }
 
-.openheader h1 {
-  margin-bottom: 5em;
+.imagewrap img {
+  width: 100%;
+  height: auto;
 }
 
 .headertext {
@@ -67,36 +79,108 @@
   // text-align: center;
   // padding: 10em;
   margin: .5em;
-  height: 15em;
-  background-color: blue;
+  margin-bottom: 0.1em;
+  color: black;
+
+}
+
+.headertext h1 {
+  padding-top: .5em;
+  color: black; 
+}
+
+.line2 {
+  font-weight: bold;
+}
+
+
+
+.headertext h2 {
+  color: #B9BAB6;
+  font-style: italic;
+  padding-top: 0.5em;
+}
+
+
+.text {
+  padding: 1em 1em;
+  font-size: 16px;
+
 }
 
 .projects {
   height: 50em;
-  background-color: green;
+  background-color: #C2C4BE;
   padding: 0em 1em 0em 1em;
+
 }
+
+.pImage1 img {
+  display: block;
+  margin: 0 auto;
+  padding: 5%;
+}
+
 
 .projecthead {
   text-align: center;
-  padding: 2em;
   font-size: 2em;
-  background-color: white;
+  margin-bottom: 0.5em;
+
 }
+
+.projecthead ol {
+  overflow: hidden;
+}
+
+.projecthead h3 {
+  padding-top: 1em;
+}
+
+.line1 {
+  font-weight: 900;
+}
+
+
 
 .projecthead li {
   display: block;
   text-align: center;
+  width: 25%;
+  padding-top: 2em;
+  float: left;
+  border-bottom: solid 1px black;
+
 }
 
 .projecthead li a{
   display: block;
   font-size: .5em;
   padding: .1em;
-  float: left;
+  text-decoration: none;
+  color: #B9BAB6;
 }
+
+.projects {
+  height: 150em;
+  background-color: #F1F2ED;
+  padding: 0em 1em 0em 1em;
+}
+
+.projects li {
+  text-align: center;
+
+}
+
+.imagecontainer img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
 
 .footer{
   height: 10em;
-  background-color: pink;
 }
